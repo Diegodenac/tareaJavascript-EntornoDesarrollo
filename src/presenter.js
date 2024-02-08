@@ -23,6 +23,6 @@ formMultiply.addEventListener("submit", (event)=> {
 
   const firstNumber = Number.parseInt(firstM.value);
   const secondNumber = Number.parseInt(secondM.value);
-
+//algo
   divMultiply.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
 });
